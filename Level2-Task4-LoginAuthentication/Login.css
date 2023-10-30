@@ -1,0 +1,49 @@
+
+form
+{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgba(10,20,200,.4),rgba(200,10,10,.4),rgba(0,200,50,.4));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    border-radius: 4px;
+    margin-top: 50px;
+    
+
+}
+button
+{
+    margin-top:20px ;
+    border-radius: 3px ;
+    background-color: rgba(10,200,10,.7);
+}
+button:hover
+{
+    background-color: rgba(200,10,10,.7);
+    color: #ffffff;
+}
+input
+{
+    margin-top:20px ;
+    outline: none;
+    background-color: transparent;
+    border-top: none;
+    border-left:none ;
+    border-right:none ;
+    color: #ffffff;
+    text-align: center;
+    font-size: .1 em;
+    margin-left: 10px;
+}
+h1
+{
+    text-shadow:1px 1px rgba(200,10,10,.7);
+}
+p
+{
+   color: red;
+   font-size: .2 rem; 
+}
